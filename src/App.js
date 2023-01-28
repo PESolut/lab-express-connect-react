@@ -18,7 +18,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/index" element={<Index/>} />
+          <Route path="/logs" element={<Index/>} />
+          <Route path="/logs/new" element={<New/>} />
         </Routes>
       </main>
     </Router>
