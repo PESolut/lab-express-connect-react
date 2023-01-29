@@ -7,7 +7,7 @@ const Log = ({index, log, }) => {
         <tr>
             <td>
                 <span>
-                    {index+1}
+                    <Link to={`/logs/${index}`}>{index}</Link>
                 </span>
             </td>
                 
@@ -31,7 +31,7 @@ const Log = ({index, log, }) => {
 
             <td>
                 <span>
-                    {log.mistakesWereMadeToday}
+                    {log.mistakesWereMadeToday ? "True" : "False"}
                 </span>
             </td>
 

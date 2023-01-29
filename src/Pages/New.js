@@ -1,7 +1,7 @@
 function New() {
     return (
       <div className="New">
-        <h2>New Page</h2>
+        <h2>New</h2>
       </div>
     );
   }
