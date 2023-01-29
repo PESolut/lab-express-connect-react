@@ -41,10 +41,10 @@ const LogShow = () => {
                 <p>Mistakes Made: { log.mistakesWereMadeToday ? 'Yes' : 'No' } Author: { log.captainName } Days Since Crisis: { log.daysSinceLastCrisis }</p>
             </section>
             <div className="showNavigation">
-                <Link to={`/bookmarks`}>
+                <Link to={`/logs`}>
                     <button>Back</button>
                 </Link>
-                <Link to={`/bookmarks/${index}/edit`}>
+                <Link to={`/logs/${index}/edit`}>
                     <button>Edit</button>
                 </Link>
                 <button onClick={handleDelete}>Delete</button>
