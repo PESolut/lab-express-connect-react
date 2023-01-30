@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Index from "./Pages/Index"
 import New from "./Pages/New"
 import Show from "./Pages/Show";
+import Edit from "./Pages/Edit";
 
 // COMPONENTS
 import NavBar from "./Components/NavBar";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/logs" element={<Index/>} />
           <Route path="/logs/new" element={<New/>} />
           <Route path="/logs/:index" element={<Show/>} />
+          <Route path="/logs/:index/edit" element={<Edit/>} />
         </Routes>
       </main>
     </Router>
